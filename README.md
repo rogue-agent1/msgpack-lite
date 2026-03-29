@@ -1,11 +1,17 @@
 # msgpack_lite
 
-msgpack_lite: Minimal MessagePack encoder/decoder.
+Minimal MessagePack encoder/decoder
 
-Single-file, zero-dependency Python CLI.
+Single-file, zero-dependency Python CLI tool.
 
 ## Usage
 
 ```bash
-python3 msgpack_lite.py test
+python msgpack_lite.py --help
+```
+
+## Test
+
+```bash
+python -c "import msgpack_lite; msgpack_lite.test()"
 ```
